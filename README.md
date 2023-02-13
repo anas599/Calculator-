@@ -29,7 +29,7 @@ Video presenting the features the Project</a>
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](Anas Sufyan)
+- [👥 Authors](#-authors-)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -39,14 +39,14 @@ Video presenting the features the Project</a>
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Calculator] <a name="Video-Presenting"></a>
+# 📖 Calculator <a name="Video-Presenting"></a>
 <a href="https://www.loom.com">
 Video presenting the features the Project
 </a>
-# 📖 [Calculator] <a name="about-project"></a>
+# 📖 Calculator <a name="about-project"></a>
 
 
-**[Calculator]** is a mobile and Desktop responsive website to demonstrate my knowledge in React and javascript 
+**Calculator** is a mobile and Desktop responsive website to demonstrate my knowledge in React and javascript 
 
 ## 🛠 Built With <a name="React & JavaScript"></a>
 
@@ -68,9 +68,9 @@ Video presenting the features the Project
 
 > Describe between 1-3 key features of the application.
 
-- **[Calculate numbers]**
-- **[Add quotes]**
-- **[Ability to delete undo the quote again]**
+- **Calculate numbers**
+- **Add quotes**
+- **Ability to delete undo the quote again**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,9 +154,9 @@ Github Pages or any hosting platforms
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[The Ability to add photo]**
-- [ ] **[The user can share a link of current list]**
-- [ ] **[Adding a rating out of 5 stars of how important task is]**
+-  **The Ability to add photo**
+-  **The user can share a link of current list**
+-  **Adding a rating out of 5 stars of how important task is**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,14 +191,6 @@ Feel free to check the [issues page](../../issues/).
 
 > 
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -206,7 +198,4 @@ Feel free to check the [issues page](../../issues/).
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
