@@ -21,7 +21,7 @@ Video presenting the features the Project</a>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - 🚀<a href="https://anas599.github.io/To-Do-List/webpack-demo/dist/">Live Demo</a>
+  - 🚀<a href="https://anas599.github.io">Live Demo</a>
   - [💻 Getting Started](#getting-started)
   - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
@@ -106,15 +106,16 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
-
+React
 Node js
-Webpack
+
 ### Usage
 
 To run the project, execute the following command:
 
 Clone the Repository to your local machine and open it using Live Server Extension in VS code
-Make sure to install Webpack 
+Make sure to install React
+npm i 
 npm run build
 npm start
 
@@ -137,8 +138,6 @@ Github Pages or any hosting platforms
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Anas Sufyan**
 
 - GitHub: [@anas599](https://github.com/anas599)
@@ -156,7 +155,7 @@ Github Pages or any hosting platforms
 
 -  **The Ability to add photo**
 -  **The user can share a link of current list**
--  **Adding a rating out of 5 stars of how important task is**
+-  **Adding a Memory button to save history of mathematical operations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
