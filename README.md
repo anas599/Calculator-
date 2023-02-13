@@ -121,6 +121,9 @@ To run tests, run the following command:
 npx eslint .
 to check for any eslint errors
 
+npm test 
+to test React App
+
 ### Deployment
 
 You can deploy this project using:
