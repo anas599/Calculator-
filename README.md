@@ -52,7 +52,6 @@ Video presenting the features the Project
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -66,7 +65,6 @@ Video presenting the features the Project
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **Calculate numbers**
 - **Add quotes**
@@ -78,8 +76,6 @@ Video presenting the features the Project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://anas599.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -88,7 +84,6 @@ Video presenting the features the Project
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -151,7 +146,6 @@ Github Pages or any hosting platforms
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 -  **The Ability to add photo**
 -  **The user can share a link of current list**
