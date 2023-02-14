@@ -13,8 +13,8 @@ class MainCalculator extends Component {
     const { result } = this.state;
     const newValue = calculate(result, x.target.innerText);
     this.setState({ result: newValue });
-    const totalElement = document.getElementById('total');
-    totalElement.innerHTML = newValue.next || newValue.total || 0;
+    const mainDisplay = document.getElementById('total');
+    mainDisplay.innerHTML = newValue.next || newValue.total || 0;
   };
 
   render() {
