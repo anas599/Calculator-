@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import operate from './operate';
 
 class MainCalculator extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class MainCalculator extends Component {
       <div className="main">
         <p id="total">0</p>
         <div className="mainKeyPad">
-          <button type="button" className="greyKey">
+          <button name="AC" type="button" className="greyKey">
             AC
           </button>
           <button type="button" className="greyKey">
