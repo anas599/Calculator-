@@ -12,6 +12,7 @@
 }
 
 .mainKeyPad > button {
+  font-size: 20px;
   margin: 0;
   padding: 20px;
   display: flex;
@@ -20,7 +21,11 @@
   justify-content: center;
   align-items: center;
 }
+.mainKeyPad> button:active {
+    border: 1px solid rgb(255, 0, 0);
+  background-color: rgb(232, 232, 232);
 
+}
 .signs {
   background-color: orange;
 }
