@@ -20,6 +20,9 @@
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
+  "settings": {
+  "import/core-modules": ["big.js"]
+},
   "ignorePatterns": [
     "dist/",
     "build/"
