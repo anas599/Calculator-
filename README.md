@@ -21,7 +21,7 @@ Video presenting the features the Project</a>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - 🚀<a href="https://anas599.github.io/To-Do-List/webpack-demo/dist/">Live Demo</a>
+  - 🚀<a href="https://anas599.github.io">Live Demo</a>
   - [💻 Getting Started](#getting-started)
   - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
@@ -29,7 +29,7 @@ Video presenting the features the Project</a>
   - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](Anas Sufyan)
+- [👥 Authors](#-authors-)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -39,20 +39,19 @@ Video presenting the features the Project</a>
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Calculator] <a name="Video-Presenting"></a>
+# 📖 Calculator <a name="Video-Presenting"></a>
 <a href="https://www.loom.com">
 Video presenting the features the Project
 </a>
-# 📖 [Calculator] <a name="about-project"></a>
+# 📖 Calculator <a name="about-project"></a>
 
 
-**[Calculator]** is a mobile and Desktop responsive website to demonstrate my knowledge in React and javascript 
+**Calculator** is a mobile and Desktop responsive website to demonstrate my knowledge in React and javascript 
 
 ## 🛠 Built With <a name="React & JavaScript"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -66,11 +65,10 @@ Video presenting the features the Project
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Calculate numbers]**
-- **[Add quotes]**
-- **[Ability to delete undo the quote again]**
+- **Calculate numbers**
+- **Add quotes**
+- **Ability to delete undo the quote again**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,9 +76,7 @@ Video presenting the features the Project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://anas599.github.io)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +84,6 @@ Video presenting the features the Project
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -106,15 +101,16 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
-
+React
 Node js
-Webpack
+
 ### Usage
 
 To run the project, execute the following command:
 
 Clone the Repository to your local machine and open it using Live Server Extension in VS code
-Make sure to install Webpack 
+Make sure to install React
+npm i 
 npm run build
 npm start
 
@@ -124,6 +120,9 @@ To run tests, run the following command:
 
 npx eslint .
 to check for any eslint errors
+
+npm test 
+to test React App
 
 ### Deployment
 
@@ -136,8 +135,6 @@ Github Pages or any hosting platforms
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Anas Sufyan**
 
@@ -152,11 +149,10 @@ Github Pages or any hosting platforms
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[The Ability to add photo]**
-- [ ] **[The user can share a link of current list]**
-- [ ] **[Adding a rating out of 5 stars of how important task is]**
+-  **The Ability to add photo**
+-  **The user can share a link of current list**
+-  **Adding a Memory button to save history of mathematical operations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,14 +187,6 @@ Feel free to check the [issues page](../../issues/).
 
 > 
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -206,7 +194,4 @@ Feel free to check the [issues page](../../issues/).
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
