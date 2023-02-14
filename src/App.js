@@ -1,4 +1,15 @@
 import './App.css';
-import mainCalculator from './components/calculator';
 
-export default mainCalculator;
+import React from 'react';
+
+import MainCalculator from './components/calculator';
+
+class App extends React.PureComponent {
+  render() {
+    return (
+      <MainCalculator />
+    );
+  }
+}
+
+export default App;
