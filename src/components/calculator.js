@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import operate from './operate';
+// import calculate from '../logic/calculate';
 
 class MainCalculator extends Component {
   constructor(props) {
@@ -9,11 +9,20 @@ class MainCalculator extends Component {
   }
 
   render() {
+    function keyClick() {
+      console.log('yws');
+    }
+
     return (
       <div className="main">
-        <p id="total">0</p>
+        <p id="total">{}</p>
         <div className="mainKeyPad">
-          <button name="AC" type="button" className="greyKey">
+          <button
+            name="AC"
+            type="button"
+            className="greyKey"
+            onClick={keyClick}
+          >
             AC
           </button>
           <button type="button" className="greyKey">
