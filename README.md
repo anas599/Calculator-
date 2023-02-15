@@ -177,7 +177,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+I would like to thank Microverse for training
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
