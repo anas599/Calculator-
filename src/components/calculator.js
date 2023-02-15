@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Button from './Button';
 
-function MainCalculator() {
+const MainCalculator = () => {
   const [result, setResult] = useState(0);
 
   const keyClick = (x) => {
@@ -36,6 +36,6 @@ function MainCalculator() {
       </div>
     </div>
   );
-}
+};
 
 export default MainCalculator;
