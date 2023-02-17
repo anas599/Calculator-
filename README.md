@@ -16,12 +16,10 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-- 🎥<a href="https://www.loom.com/">
-Video presenting the features the Project</a>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - 🚀<a href="https://anas599.github.io">Live Demo</a>
+  - 🚀<a href="http://anasdev.com/calculator/">Live Demo</a>
   - [💻 Getting Started](#getting-started)
   - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
@@ -110,7 +108,7 @@ To run the project, execute the following command:
 
 Clone the Repository to your local machine and open it using Live Server Extension in VS code
 Make sure to install React
-npm i 
+npm install
 npm run build
 npm start
 
