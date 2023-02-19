@@ -19,7 +19,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - 🚀<a href="http://anasdev.com/calculator/">Live Demo</a>
+  - 🚀<a href="https://anasdev.com/Math-magicians/">Live Demo</a>
   - [💻 Getting Started](#getting-started)
   - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
