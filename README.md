@@ -1,195 +1,70 @@
-# Calculator
+# Getting Started with Create React App
 
-<a name="readme-top"></a>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-<div align="center">
+In the project directory, you can run:
 
-  <img src="./src/Assets/calculator.svg" alt="logo" width="140"  height="auto" />
-  <br/>
-  <h3><b>Calculator</b></h3>
+### `npm start`
 
-</div>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<!-- TABLE OF CONTENTS -->
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-# 📗 Table of Contents
+### `npm test`
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - 🚀<a href="http://anasdev.com/calculator/">Live Demo</a>
-  - [💻 Getting Started](#getting-started)
-  - [Setup1](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#-authors-)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<!-- PROJECT DESCRIPTION -->
+### `npm run build`
 
-# 📖 Calculator <a name="Video-Presenting"></a>
-<a href="https://www.loom.com">
-Video presenting the features the Project
-</a>
-# 📖 Calculator <a name="about-project"></a>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Calculator** is a mobile and Desktop responsive website to demonstrate my knowledge in React and javascript 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## 🛠 Built With <a name="React & JavaScript"></a>
+### `npm run eject`
 
-### Tech Stack <a name="tech-stack"></a>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<!-- Features -->
+## Learn More
 
-### Key Features <a name="key-features"></a>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- **Calculate numbers**
-- **Add quotes**
-- **Ability to delete undo the quote again**
+### Code Splitting
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-<!-- LIVE DEMO -->
+### Analyzing the Bundle Size
 
-## 🚀 Live Demo <a name="live-demo"></a>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- [Live Demo Link]()
+### Making a Progressive Web App
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-<!-- GETTING STARTED -->
+### Advanced Configuration
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-
-### Setup
-
-Clone this repository to your desired folder:
-
-
-
-### Install
-
-Install this project with:
-React
-Node js
-
-### Usage
-
-To run the project, execute the following command:
-
-Clone the Repository to your local machine and open it using Live Server Extension in VS code
-Make sure to install React
-npm install
-npm run build
-npm start
-
-### Run tests
-
-To run tests, run the following command:
-
-npx eslint .
-to check for any eslint errors
-
-npm test 
-to test React App
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-You can deploy this project using:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Github Pages or any hosting platforms
+### `npm run build` fails to minify
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-👤 **Anas Sufyan**
-
-- GitHub: [@anas599](https://github.com/anas599)
-- Twitter: [@anas599](https://twitter.com/anas599)
-- LinkedIn: [anas1993](https://linkedin.com/in/anas1993)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
--  **The Ability to add photo**
--  **The user can share a link of current list**
--  **Adding a Memory button to save history of mathematical operations**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="If you like the design feel free to contact me for any help or inquiries "></a>
-
-> please consider supporting it. Every little bit helps and goes a long way towards helping us reach our goals...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to thank Microverse for training
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./MIT.md) licensed.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
