@@ -40,7 +40,7 @@ const MainCalculator = () => {
           </div>
         </div>
         <div>
-          <h2>Lets do some Math</h2>
+          <h2>Lets do some Math!</h2>
         </div>
       </div>
     </>

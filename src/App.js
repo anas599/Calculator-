@@ -17,19 +17,18 @@ class App extends React.PureComponent {
                 <Link to="/home">Home</Link>
               </li>
               <li>
-                <Link to="/">Calculator</Link>
+                <Link to="/calculator">Calculator</Link>
               </li>
               <li>
                 <Link to="/quote">Quotes</Link>
               </li>
             </ul>
           </nav>
-          <h1>
-            Math Magicians
-          </h1>
+          <h1>Math Magicians</h1>
         </header>
         <Routes>
-          <Route path="/" element={<MainCalculator />} />
+          <Route path="/Math-magicians" element={<Home />} />
+          <Route path="/calculator" element={<MainCalculator />} />
           <Route path="/home" element={<Home />} />
           <Route path="/quote" element={<Quote />} />
         </Routes>
