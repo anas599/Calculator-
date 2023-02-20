@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       <h1>Welcome to our page</h1>
-      <p className="homeP">
+      <p style={{ textAlign: 'left', width: '90vw' }}>
         Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus phasellus
         velit iaculis dolor porta in vestibulum risus leo. Nec tempus a tellus,
         nec ligula dis nibh et. Fames consectetur nibh sociosqu ante est
@@ -11,7 +11,7 @@ export default function Home() {
         sociosqu ac, justo per arcu. Donec etiam fermentum nunc ex cubilia
         fermentum pulvinar id proin?
       </p>
-      <p className="homeP">
+      <p style={{ textAlign: 'left', width: '90vw' }}>
         Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus phasellus
         velit iaculis dolor porta in vestibulum risus leo. Nec tempus a tellus,
         nec ligula dis nibh et. Fames consectetur nibh sociosqu ante est
