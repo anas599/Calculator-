@@ -1,14 +1,20 @@
 body {
-  background-color: black;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 20px;
+  width: 90vw;
+  justify-content: space-between;
 }
 
 .main {
-  margin: 20px;
   width: 400px;
-  box-shadow:
-    rgb(45 35 66 / 40%) 0 0 10px 3px,
-    rgb(45 35 66 / 30%) 0 7px 13px -3px,
-    rgb(58 65 111 / 50%) 0 -3px 0 inset;
+  box-shadow: 0 0 32px 6px rgba(240, 104, 0, 0.9);
 }
 
 .mainKeyPad {
@@ -37,19 +43,23 @@ body {
 
 .signs {
   background-color: orange;
+  box-shadow: inset 0 0 4px 4px rgba(255, 136, 0, 0.9);
 }
 
 .greyKey {
   background-color: rgb(208, 208, 208);
+  box-shadow: inset 0 0 4px 4px rgb(255 255 255 / 90%);
 }
 
 #total {
+  font-size: 20px;
   color: white;
   margin: 0;
   padding: 20px;
   display: flex;
   background-color: gray;
   flex-direction: row-reverse;
+  box-shadow: inset 0 0 4px 4px rgb(255 255 255/0.3);
 }
 
 .extra1 {
@@ -62,7 +72,87 @@ body {
 
 #root {
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul > li {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricPrecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+ul > li:hover,
+ul > li:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+ul > li:active {
+  opacity: 0.5;
+}
+
+.base {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.quoteW {
+  width: 80vw;
+  text-align: center;
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+  }
+
+  .base {
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+
+  .main {
+    width: 90vw;
+  }
 }
