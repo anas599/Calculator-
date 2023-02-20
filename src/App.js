@@ -14,7 +14,7 @@ class App extends React.PureComponent {
           <nav>
             <ul>
               <li>
-                <Link to="/home">Home</Link>
+                <Link to="/Math-magicians">Home</Link>
               </li>
               <li>
                 <Link to="/calculator">Calculator</Link>
@@ -29,7 +29,6 @@ class App extends React.PureComponent {
         <Routes>
           <Route path="/Math-magicians" element={<Home />} />
           <Route path="/calculator" element={<MainCalculator />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/quote" element={<Quote />} />
         </Routes>
       </>
