@@ -10,19 +10,24 @@ class App extends React.PureComponent {
   render() {
     return (
       <>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/">Calculator</Link>
-            </li>
-            <li>
-              <Link to="/quote">Quotes</Link>
-            </li>
-          </ul>
-        </nav>
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/home">Home</Link>
+              </li>
+              <li>
+                <Link to="/">Calculator</Link>
+              </li>
+              <li>
+                <Link to="/quote">Quotes</Link>
+              </li>
+            </ul>
+          </nav>
+          <h1>
+            Math Magicians
+          </h1>
+        </header>
         <Routes>
           <Route path="/" element={<MainCalculator />} />
           <Route path="/home" element={<Home />} />
