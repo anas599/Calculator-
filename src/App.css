@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(168, 167, 167);
 }
 
 .main {
@@ -62,7 +62,15 @@ body {
 
 #root {
   display: flex;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
 }
