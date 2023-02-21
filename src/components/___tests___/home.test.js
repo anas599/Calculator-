@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import renderer from 'react-test-renderer';
-import Home from './home';
+import Home from '../home';
 
 describe('snapshot testing', () => {
   it('first snapshot', () => {
