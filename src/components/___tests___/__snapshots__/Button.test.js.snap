@@ -2,6 +2,10 @@
 
 exports[`snapshot testing first snapshot 1`] = `
 <button
+  className="greyKey"
+  onClick={[Function]}
   type="button"
-/>
+>
+  AC
+</button>
 `;
