@@ -11,7 +11,7 @@ const MainCalculator = () => {
 
   return (
     <>
-      <div className="base">
+      <div className="base" data-testid="calculatorTest">
         <div className="main">
           <p id="total">
             {result.next || result.operation || result.total || 0}

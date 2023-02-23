@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <>
+    <div data-testid="homeTest">
       <h1>Welcome to our page</h1>
       <p style={{ textAlign: 'left', width: '90vw' }}>
         Lorem ipsum odor amet, consectetuer adipiscing elit. Lectus phasellus
@@ -20,6 +20,6 @@ export default function Home() {
         sociosqu ac, justo per arcu. Donec etiam fermentum nunc ex cubilia
         fermentum pulvinar id proin?
       </p>
-    </>
+    </div>
   );
 }
